@@ -1,0 +1,34 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle auto-import-js",
+        "command": "auto-import-js:toggle"
+      },
+      {
+        "label": "Auto Importer",
+        "command": "auto-import-js:import"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "auto-import-js",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "auto-import-js:toggle"
+            },
+            {
+              "label": "Activate",
+              "command": "auto-import-js:import"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

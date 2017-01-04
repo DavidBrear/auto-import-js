@@ -1,0 +1,17 @@
+{
+  "name": "auto-import-js",
+  "main": "./lib/auto-import-js",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "auto-import-js:import"
+  },
+  "repository": "https://github.com/atom/auto-import-js",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
