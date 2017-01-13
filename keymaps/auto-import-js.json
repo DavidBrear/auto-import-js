@@ -1,6 +1,7 @@
 {
   "atom-workspace": {
     "ctrl-alt-o": "auto-import-js:toggle",
-    "ctrl-alt-enter": "auto-import-js:import"
+    "ctrl-alt-enter": "auto-import-js:import",
+    "ctrl-alt-cmd-enter": "auto-import-js:import"
   }
 }
